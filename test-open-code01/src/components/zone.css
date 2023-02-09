@@ -1,0 +1,53 @@
+html,
+body {
+  margin: 0;
+}
+.conteiner-text{
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  background-color: rgba(0 0 0/30%);
+  display: flex;
+  align-items: center;
+  
+}
+
+.text-name{
+  color: #fff;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../img/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#el1, #el2,#el3,#el4 {
+  background-color: #fff;
+  border: 3px solid #2f80ed;
+  border-radius: 50%;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+#el1:hover, 
+#el2:hover,
+#el3:hover,
+#el4:hover{
+  cursor: pointer;
+  background-color: #2f80ed;
+  border: 3px solid #fff;
+}
+
